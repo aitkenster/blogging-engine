@@ -2,9 +2,11 @@
 
 Hello <%= @name %>
 
+<%= @blogpost %>
+
 <h2>Add Post</h2>
-<form>
-Author: <input type="text" action="new" name="author"><br>
+<form method="POST">
+Author: <input type="text" name="author"><br>
 Content: <input type="text" name="content"><br>
 <input type="submit" value="Submit">
 </form>
